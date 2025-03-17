@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{910FAFAE-4D39-FE16-5C23-CA9FF7F396C8}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MPMagic",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}

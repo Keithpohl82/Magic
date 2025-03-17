@@ -1,0 +1,71 @@
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+.vscode/
+.idea/
+.vscode/
+*.sln
+*.csproj
+*.csproj.user
+
+# Ignore Unreal Engine cache & temp files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/Android/
+Build/IOS/
+
+# Ignore compiled binaries
+*.pdb
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.so
+*.dylib
+*.a
+
+# Ignore backup and log files
+*.log
+*.bak
+*.tmp
+*.db
+*.opendb
+
+# Ignore generated config files
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultGame.ini
+Config/DefaultEngine.ini
+
+# Git LFS tracking for large Unreal Engine files
+*.uasset filter=lfs diff=lfs merge=lfs
+*.umap filter=lfs diff=lfs merge=lfs
+*.png filter=lfs diff=lfs merge=lfs
+*.jpg filter=lfs diff=lfs merge=lfs
+*.mp4 filter=lfs diff=lfs merge=lfs
+*.wav filter=lfs diff=lfs merge=lfs
+*.mp3 filter=lfs diff=lfs merge=lfs
+
+# Ignore auto-generated Unreal Engine files
+*.generated.cpp
+*.generated.h
+*.cpp.obj
+*.cpp.pch
+*.cpp.pdb
+*.cpp.sdf
+*.iobj
+*.ipdb
+*.rsp
+*.tlog
+*.log
+*.sym
+
+# Ignore MacOS files
+.DS_Store
+._*
