@@ -105,12 +105,20 @@ protected:
 	float DashCooldownTime = 2.0f;
 	// Left Mouse Button
 	void FirePrimarySkill();
+	UPROPERTY(EditAnywhere, Category = Skills)
+	float PrimarySkillCooldown = 2.0f;
 	//Right Mouse Button
 	void FireSecondarySkill();
+	UPROPERTY(EditAnywhere, Category = Skills)
+	float SecondarySkillCooldown = 2.0f;
 	// Q Button
 	void CastPrimarySpell();
+	UPROPERTY(EditAnywhere, Category = Spells)
+	float PrimarySpellCooldown = 2.0f;
 	// E Button
 	void CastSecondarySpell();
+	UPROPERTY(EditAnywhere, Category = Spells)
+	float SecondarySpellCooldown = 2.0f;
 	
 
 protected:
